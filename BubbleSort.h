@@ -17,13 +17,3 @@ void bubbleSort(T A[], size_t size)
         }
     }
 }
-
-int main()
-{
-    int t[] = {3, 5, 7, 9, 1, 2, 4, 8};
-    bubbleSort(t, sizeof(t) / sizeof(t[0]));
-    for (auto a : t)
-    {
-        cout << a << " ";
-    }
-}
